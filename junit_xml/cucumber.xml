@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="80.084748">
+<testcase classname="Verify Search Item functionality on Myntra Home Page" name="To Verify When search product is available" time="17.696067">
+<system-out><![CDATA[Given User launches Myntra application......................................passed
+When User is on Myntra Home Page............................................passed
+When User Moved to Login Page...............................................passed
+When User logs in with "manishlalwani88@gmail.com" and "Mar@2091"...........passed
+Then Enters product "Mens Jeans" on search textbox..........................passed
+Then Products "Mens Jeans" are displayed on New Page........................passed
+Then User Selects Wishlist button for Required search.......................passed
+Then User Moves to Wishlist Page............................................passed
+Then User Moves item to Bag for Checkout....................................passed
+Then User Selects "30" from avaialble options...............................passed
+Then User Selects Done......................................................passed
+Then User Selects Bag to verify the item....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Search Item functionality on Myntra Home Page" name="To Verify When search product is available before login" time="15.818971">
+<system-out><![CDATA[Given User launches Myntra application......................................passed
+When User is on Myntra Home Page............................................passed
+Then Enters product "Mens Jeans" on search textbox..........................passed
+Then Products "Mens Jeans" are displayed on New Page........................passed
+Then User Selects Wishlist button for Required search.......................passed
+When User logs in with "manishlalwani88@gmail.com" and "Mar@2091"...........passed
+Then User Clicks on Wishlist Button.........................................passed
+Then User Moves to Wishlist Page............................................passed
+Then User Moves item to Bag for Checkout....................................passed
+Then User Selects "30" from avaialble options...............................passed
+Then User Selects Done......................................................passed
+Then User Selects Bag to verify the item....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Search Item functionality on Myntra Home Page" name="To Verify When search product is not available" time="12.005836">
+<system-out><![CDATA[Given User launches Myntra application......................................passed
+When User is on Myntra Home Page............................................passed
+When User Moved to Login Page...............................................passed
+When User logs in with "manishlalwani88@gmail.com" and "Mar@2091"...........passed
+Then Enters product "Refridgerator" on search textbox.......................passed
+Then Product not available on Application...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Search Item functionality on Myntra Home Page" name="To Verify Whether Item is added to Wishlist or not" time="21.022459">
+<system-out><![CDATA[Given User launches Myntra application......................................passed
+When User is on Myntra Home Page............................................passed
+When User Moved to Login Page...............................................passed
+When User logs in with "manishlalwani88@gmail.com" and "Mar@2091"...........passed
+Then Enters product "Levis Jeans" on search textbox.........................passed
+Then Products "Levis Jeans" are displayed on New Page.......................passed
+Then User Selects Wishlist button for Required search.......................passed
+Then User Log Out of Application............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Search Item functionality on Myntra Home Page" name="To Verify Wishlist after logging out and then check out" time="13.541415">
+<system-out><![CDATA[Given User launches Myntra application......................................passed
+When User Moved to Login Page...............................................passed
+When User logs in with "manishlalwani88@gmail.com" and "Mar@2091"...........passed
+Then User Moves to Wishlist Page............................................passed
+Then User Moves item to Bag for Checkout....................................passed
+Then User Selects "30" from avaialble options...............................passed
+Then User Selects Done......................................................passed
+Then User Selects Bag to verify the item....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
